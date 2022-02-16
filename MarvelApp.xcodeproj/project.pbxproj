@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		791E563227A9525800787EFE /* MarvelResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791E563127A9525800787EFE /* MarvelResponse.swift */; };
 		7933734027A7DA1D000B6905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933733F27A7DA1D000B6905 /* AppDelegate.swift */; };
 		7933734227A7DA1D000B6905 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933734127A7DA1D000B6905 /* SceneDelegate.swift */; };
 		7933734427A7DA1D000B6905 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933734327A7DA1D000B6905 /* ViewController.swift */; };
@@ -16,6 +17,15 @@
 		7933735727A7DA1F000B6905 /* MarvelAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933735627A7DA1F000B6905 /* MarvelAppTests.swift */; };
 		7933736127A7DA1F000B6905 /* MarvelAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933736027A7DA1F000B6905 /* MarvelAppUITests.swift */; };
 		7933736327A7DA1F000B6905 /* MarvelAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933736227A7DA1F000B6905 /* MarvelAppUITestsLaunchTests.swift */; };
+		7933737727A7DA82000B6905 /* RouterHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933737627A7DA82000B6905 /* RouterHome.swift */; };
+		7933737927A7DA8B000B6905 /* InteractorHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933737827A7DA8B000B6905 /* InteractorHome.swift */; };
+		7933737B27A7DA93000B6905 /* PresenterHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933737A27A7DA93000B6905 /* PresenterHome.swift */; };
+		7933737F27A7DAAC000B6905 /* ProtocolHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933737E27A7DAAC000B6905 /* ProtocolHome.swift */; };
+		7942964227A957160047DF0A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7942964127A957160047DF0A /* Alamofire */; };
+		79DCDF6027AA7680007B5DD1 /* CharactersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DCDF5F27AA7680007B5DD1 /* CharactersCollectionViewCell.swift */; };
+		79DCDF6327AAB4A0007B5DD1 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 79DCDF6227AAB4A0007B5DD1 /* Kingfisher */; };
+		79DCDF6527AAC943007B5DD1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DCDF6427AAC943007B5DD1 /* DetailViewController.swift */; };
+		79F560DB27AD270900043B9F /* StoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F560DA27AD270900043B9F /* StoriesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		791E563127A9525800787EFE /* MarvelResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelResponse.swift; sourceTree = "<group>"; };
 		7933733C27A7DA1D000B6905 /* MarvelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7933733F27A7DA1D000B6905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7933734127A7DA1D000B6905 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,13 @@
 		7933735C27A7DA1F000B6905 /* MarvelAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarvelAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7933736027A7DA1F000B6905 /* MarvelAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAppUITests.swift; sourceTree = "<group>"; };
 		7933736227A7DA1F000B6905 /* MarvelAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7933737627A7DA82000B6905 /* RouterHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterHome.swift; sourceTree = "<group>"; };
+		7933737827A7DA8B000B6905 /* InteractorHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorHome.swift; sourceTree = "<group>"; };
+		7933737A27A7DA93000B6905 /* PresenterHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterHome.swift; sourceTree = "<group>"; };
+		7933737E27A7DAAC000B6905 /* ProtocolHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolHome.swift; sourceTree = "<group>"; };
+		79DCDF5F27AA7680007B5DD1 /* CharactersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersCollectionViewCell.swift; sourceTree = "<group>"; };
+		79DCDF6427AAC943007B5DD1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		79F560DA27AD270900043B9F /* StoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79DCDF6327AAB4A0007B5DD1 /* Kingfisher in Frameworks */,
+				7942964227A957160047DF0A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		791E563027A9524500787EFE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				791E563127A9525800787EFE /* MarvelResponse.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		7933733327A7DA1D000B6905 = {
 			isa = PBXGroup;
 			children = (
@@ -99,11 +127,12 @@
 		7933733E27A7DA1D000B6905 /* MarvelApp */ = {
 			isa = PBXGroup;
 			children = (
-				7933733F27A7DA1D000B6905 /* AppDelegate.swift */,
-				7933734127A7DA1D000B6905 /* SceneDelegate.swift */,
-				7933734327A7DA1D000B6905 /* ViewController.swift */,
+				791E563027A9524500787EFE /* Network */,
+				7933739127A7DEF0000B6905 /* Util */,
+				7933739027A7DB43000B6905 /* AppAndScene */,
+				7933737027A7DA2B000B6905 /* DetailsVc */,
+				7933736F27A7DA28000B6905 /* HomeVc */,
 				7933734527A7DA1E000B6905 /* Main.storyboard */,
-				7933734827A7DA1F000B6905 /* Assets.xcassets */,
 				7933734A27A7DA1F000B6905 /* LaunchScreen.storyboard */,
 				7933734D27A7DA1F000B6905 /* Info.plist */,
 			);
@@ -127,6 +156,125 @@
 			path = MarvelAppUITests;
 			sourceTree = "<group>";
 		};
+		7933736F27A7DA28000B6905 /* HomeVc */ = {
+			isa = PBXGroup;
+			children = (
+				7933737227A7DA44000B6905 /* Router */,
+				7933737427A7DA47000B6905 /* Interactor */,
+				7933737327A7DA46000B6905 /* Presenter */,
+				7933737527A7DA49000B6905 /* Protocol */,
+				7933737127A7DA42000B6905 /* Views */,
+			);
+			path = HomeVc;
+			sourceTree = "<group>";
+		};
+		7933737027A7DA2B000B6905 /* DetailsVc */ = {
+			isa = PBXGroup;
+			children = (
+				7933738427A7DAD5000B6905 /* Router */,
+				7933738327A7DAD4000B6905 /* Presenter */,
+				7933738227A7DAD3000B6905 /* Interactor */,
+				7933738127A7DAD2000B6905 /* Protocol */,
+				7933738027A7DACF000B6905 /* Views */,
+			);
+			path = DetailsVc;
+			sourceTree = "<group>";
+		};
+		7933737127A7DA42000B6905 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7933734327A7DA1D000B6905 /* ViewController.swift */,
+				79DCDF5F27AA7680007B5DD1 /* CharactersCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7933737227A7DA44000B6905 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				7933737627A7DA82000B6905 /* RouterHome.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7933737327A7DA46000B6905 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				7933737A27A7DA93000B6905 /* PresenterHome.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7933737427A7DA47000B6905 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				7933737827A7DA8B000B6905 /* InteractorHome.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7933737527A7DA49000B6905 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				7933737E27A7DAAC000B6905 /* ProtocolHome.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		7933738027A7DACF000B6905 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				79DCDF6427AAC943007B5DD1 /* DetailViewController.swift */,
+				79F560DA27AD270900043B9F /* StoriesTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7933738127A7DAD2000B6905 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		7933738227A7DAD3000B6905 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		7933738327A7DAD4000B6905 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		7933738427A7DAD5000B6905 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		7933739027A7DB43000B6905 /* AppAndScene */ = {
+			isa = PBXGroup;
+			children = (
+				7933733F27A7DA1D000B6905 /* AppDelegate.swift */,
+				7933734127A7DA1D000B6905 /* SceneDelegate.swift */,
+			);
+			path = AppAndScene;
+			sourceTree = "<group>";
+		};
+		7933739127A7DEF0000B6905 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7933734827A7DA1F000B6905 /* Assets.xcassets */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +291,10 @@
 			dependencies = (
 			);
 			name = MarvelApp;
+			packageProductDependencies = (
+				7942964127A957160047DF0A /* Alamofire */,
+				79DCDF6227AAB4A0007B5DD1 /* Kingfisher */,
+			);
 			productName = MarvelApp;
 			productReference = 7933733C27A7DA1D000B6905 /* MarvelApp.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +367,10 @@
 				Base,
 			);
 			mainGroup = 7933733327A7DA1D000B6905;
+			packageReferences = (
+				7942964027A957160047DF0A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				79DCDF6127AAB4A0007B5DD1 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 7933733D27A7DA1D000B6905 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +414,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F560DB27AD270900043B9F /* StoriesTableViewCell.swift in Sources */,
+				791E563227A9525800787EFE /* MarvelResponse.swift in Sources */,
 				7933734427A7DA1D000B6905 /* ViewController.swift in Sources */,
+				79DCDF6027AA7680007B5DD1 /* CharactersCollectionViewCell.swift in Sources */,
+				7933737B27A7DA93000B6905 /* PresenterHome.swift in Sources */,
+				7933737F27A7DAAC000B6905 /* ProtocolHome.swift in Sources */,
+				7933737727A7DA82000B6905 /* RouterHome.swift in Sources */,
 				7933734027A7DA1D000B6905 /* AppDelegate.swift in Sources */,
+				7933737927A7DA8B000B6905 /* InteractorHome.swift in Sources */,
 				7933734227A7DA1D000B6905 /* SceneDelegate.swift in Sources */,
+				79DCDF6527AAC943007B5DD1 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +762,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7942964027A957160047DF0A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		79DCDF6127AAB4A0007B5DD1 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7942964127A957160047DF0A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7942964027A957160047DF0A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		79DCDF6227AAB4A0007B5DD1 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79DCDF6127AAB4A0007B5DD1 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7933733427A7DA1D000B6905 /* Project object */;
 }
